@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="1" skipped="0" tests="9" time="0.024" timestamp="2026-09-08T09:08:35.371519-06:00" hostname="macbookair.lan"><testcase classname="tests.test_login" name="test_usuario" time="0.001"><failure message="AssertionError: assert 'admin' == 'PEPE'&#10;  &#10;  #x1B[0m#x1B[91m- PEPE#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ admin#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">usuario = 'admin'
+
+    def test_usuario(usuario):
+        print("Ejecutando test")
+&gt;       assert usuario == "PEPE"
+E       AssertionError: assert 'admin' == 'PEPE'
+E         
+E         #x1B[0m#x1B[91m- PEPE#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ admin#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+tests/test_login.py:29: AssertionError</failure></testcase><testcase classname="tests.test_login" name="test_usuario_password" time="0.000" /><testcase classname="tests.test_login" name="test_login[admin-1234-True]" time="0.000" /><testcase classname="tests.test_login" name="test_login[admin-01234-False]" time="0.000" /><testcase classname="tests.test_login" name="test_login[pepe-1234-False]" time="0.000" /><testcase classname="tests.test_login" name="test_login[-1234-False]" time="0.000" /><testcase classname="tests.test_login" name="test_login[admin--False]" time="0.000" /><testcase classname="tests.test_users" name="test_usuario_nombre" time="0.000" /><testcase classname="tests.test_users" name="test_usuario_password" time="0.000" /></testsuite></testsuites>
