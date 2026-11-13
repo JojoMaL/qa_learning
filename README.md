@@ -45,7 +45,6 @@ pip install -r requirements.txt
 playwright install chromium
 ```
 
-> No `requirements.txt` yet. Once you add one, replace the `pip install` line with `pip install -r requirements.txt`.
 
 ## Running the tests
 
