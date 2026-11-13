@@ -41,7 +41,7 @@ venv\Scripts\activate         # Windows
 ### 3. Install dependencies
 
 ```bash
-pip install pytest pytest-playwright requests
+pip install -r requirements.txt
 playwright install chromium
 ```
 
