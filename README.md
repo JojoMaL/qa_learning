@@ -1,3 +1,5 @@
+[![QA tests](https://github.com/JojoMaL/qa_learning/actions/workflows/main.yml/badge.svg)](https://github.com/JojoMaL/qa_learning/actions/workflows/main.yml)
+
 # QA Learning
 
 A personal study project for learning **test automation** with Python. It combines UI tests built with **Playwright** and API tests, all run with **pytest**.
