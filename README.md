@@ -15,11 +15,9 @@ A personal study project for learning **test automation** with Python. It combin
 
 ```
 qa_learning/
-├── .vscode/        # VS Code editor settings
 ├── pages/          # Page objects (UI locators and actions)
 ├── tests/          # Test cases
 ├── pytest.ini      # pytest configuration and custom markers
-├── report.xml      # Example JUnit-style test report
 └── login_error.png # Example failure screenshot from a login test
 ```
 
@@ -76,17 +74,17 @@ pytest tests/test_file.py        # run a single file
 
 ## Test markers
 
-| Marker       | Description                  |
+| Marker | Description |
 |--------------|------------------------------|
-| `users`      | Tests related to users       |
-| `login`      | Tests related to login       |
-| `playwright` | Tests related to Playwright  |
-| `api`        | Tests related to API         |
-| `smoke`      | Critical, fast tests         |
+| `users` | Tests related to users |
+| `login` | Tests related to login |
+| `playwright` | Tests related to Playwright |
+| `api` | Tests related to API |
+| `smoke` | Critical, fast tests |
 
 ## Reports and screenshots
 
-- `report.xml` is a JUnit-style report that CI tools can read.
+- `report.xml` is a JUnit-style test report that CI tools can read.
 - `login_error.png` is a screenshot captured when a login test failed, useful for debugging.
 
 ## What I'm learning
